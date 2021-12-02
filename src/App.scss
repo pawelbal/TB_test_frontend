@@ -1,0 +1,21 @@
+.App {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+
+  input {
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  button {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+  }
+  .error {
+    color: red;
+  }
+}
