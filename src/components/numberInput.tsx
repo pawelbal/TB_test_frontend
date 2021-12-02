@@ -34,6 +34,7 @@ export const NumberInput = () => {
       >
         <input
           type={"number"}
+          placeholder="Type a number"
           onChange={(e) => {
             setErrorMsg("");
             setInputValue(+e.target.value);

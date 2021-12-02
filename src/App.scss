@@ -1,13 +1,18 @@
 .App {
-  padding: 20px;
   text-align: center;
   font-size: 20px;
 
   input {
-    width: 70%;
+    margin: 10px;
+    margin-top: 20px;
+    width: 60%;
     height: 30px;
     font-size: 20px;
     text-align: center;
+
+    &:focus::placeholder {
+      color: transparent;
+    }
   }
   button {
     margin: 10px;
